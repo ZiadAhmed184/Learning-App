@@ -2,8 +2,6 @@ const express = require("express");
 const multer=require('multer')
 const path=require('path')
 const {
-  getCourseValidator,
-  creatCourseValidator,
   UpdateCourseValidator,
   DeleteCourseValidator,
 } = require("../utils/Validattors/CourseValidator");
@@ -14,7 +12,7 @@ const {
   getCourse,
   updateCourse,
   deleteCourse,
-} = require("../controllers/Coursecontroler");
+} = require("../controllers/courseControler");
 const authController = require("../controllers/authController");
 
 
@@ -30,7 +28,7 @@ const multerFilter=(req,file,cb)=>{
   if(file.mimetype.split("/")[1]==='mp4'){
     cb(null,true)
   }else{
-    cb(new Error('Please a video'),false)
+    cb(new Error('Please Insert a video'),false)
   }
 }
 
