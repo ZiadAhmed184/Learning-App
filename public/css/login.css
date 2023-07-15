@@ -139,7 +139,29 @@ button{
     transform: scale(.6);
  }
 
-
+/* Styles for screens smaller than 768px */
+@media (max-width: 768px) {
+    body {
+      align-items: flex-start;
+    }
+  
+    .mainC {
+      left: 5px;
+      top: 30px;
+      width: 30%;
+      height: auto;
+    }
+    a{
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    input,
+    button {
+      width: 80%;
+    }
+}
+  
 
 
 

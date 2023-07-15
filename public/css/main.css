@@ -128,3 +128,34 @@ h6{
     box-shadow: none;
     transform: translateY(5px);
 }
+
+/* Styles for screens smaller than 768px */
+@media (max-width: 768px) {
+    .hero {
+      height: 50vh;
+    }
+  
+    .get-started-main {
+      width: 90%;
+      margin-left: 5%;
+    }
+  
+    h6 {
+      font-size: 3rem;
+    }
+  
+    .col-md-8 h1 {
+      text-align: left;
+    }
+  
+    .col-md-4 {
+      display: block;
+      width: 100%;
+    }
+  
+    .row1 {
+      flex-direction: column;
+      gap: 20px;
+    }
+}
+  
