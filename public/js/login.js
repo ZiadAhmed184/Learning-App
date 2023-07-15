@@ -2,7 +2,7 @@ const login = async (email, password) => {
     try {
       const res = await axios({
         method: 'POST',
-        url: 'http://localhost:3000/auth/login',
+        url: 'https://rsalearning.onrender.com/auth/login',
         data: {
           email,
           password,
