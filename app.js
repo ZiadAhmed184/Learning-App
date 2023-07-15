@@ -36,10 +36,7 @@ app.use(express.json());
 app.use(cookieParser())
 //Mount routes
 
-/* app.use((req,res,next)=>{
-  console.log(req.cookies);
-  next()
-})   */
+
 app.use(mainRouter);
 app.use(articleRoute);
 app.use(trackRoute);
@@ -53,24 +50,8 @@ app.all("*", (req, res, next) => {
     courseTitle: undefined,
     path: undefined,
   });});
-app.use(globalErroe);
 
-/* app.use((req, res) => {
-  res.render("404", {
-    courseTitle: undefined,
-    path: undefined,
-  });
-}); */
 const PORT = process.env.PORT || 3000;
 const server = app.listen(PORT, () => {
   console.log(`http://localhost:${PORT}`);
-});
-
-// Handle rejection outside Express
-process.on("unhandledRejection", (err) => {
-  console.error(`UnhandledRejection Error: ${err.name} | ${err.message}`);
-  server.close(() => {
-    console.error(`shutting down server...`);
-    process.exit(1);
-  });
 });
