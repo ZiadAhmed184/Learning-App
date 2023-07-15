@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": " https://ziadahmed184.github.io/Learning-Platform1/",
+    "start": "node app.js",
     "dev": "nodemon app.js"
   },
   "author": "",
