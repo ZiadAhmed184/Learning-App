@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "http://rsa-learning.edu/",
+    "start": " https://ziadahmed184.github.io/Learning-Platform1/",
     "dev": "nodemon app.js"
   },
   "author": "",
