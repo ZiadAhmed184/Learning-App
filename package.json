@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "deploy": "gh-pages -d . --branch=gh-pages"
+    "deploy": "gh-pages -d . --branch=main"
   },
   "author": "",
   "license": "ISC",
