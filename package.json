@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "homepage": "http://rsalearning.com/",
+  "homepage": "https://github.com/ZiadAhmed184/Learning-Platform",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
