@@ -64,14 +64,6 @@ To get started with the Learning Platform on your local machine, follow the inst
 8. Utilize the integrated to-do list to manage your tasks, set priorities, and track progress efficiently.
 9. Participate in events to connect with senior software engineers, seek guidance, and gain valuable insights to enhance your professional growth.
 
-## Contributing
-We welcome contributions to the Learning Platform project! If you'd like to contribute, please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Implement your changes.
-4. Test your changes thoroughly.
-5. Commit and push your changes to your forked repository.
-6. Create a pull request, explaining the changes you've made.
 
 Please ensure your contributions align with our [code of conduct](CODE_OF_CONDUCT.md) and [contribution guidelines](CONTRIBUTING.md).
 
