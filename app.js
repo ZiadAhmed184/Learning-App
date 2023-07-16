@@ -33,8 +33,8 @@ app.use(express.static(path.join(__dirname, "videos")));
 
 app.use(express.json());
 app.use(cookieParser())
-//Mount routes
 
+//Mount routes
 
 app.use(mainRouter);
 app.use(articleRoute);
