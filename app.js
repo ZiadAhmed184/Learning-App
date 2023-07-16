@@ -4,8 +4,6 @@ const dotenv = require("dotenv");
 dotenv.config({ path: "config.env" });
 const bodyParser = require("body-parser");
 const cookieParser=require('cookie-parser')
-const ApiError = require("./utils/apiError");
-const globalErroe = require("./middleware/ErrorMiddleware");
 const DbConnection = require("./config/mongoose");
 const mainRouter = require("./routes/main");
 const courseRoute = require("./routes/courseroute.js");
